@@ -39,10 +39,6 @@
  margin: 0 auto;
 }
 
-.margin-top-xl {
-  margin-top: 100px;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -94,15 +90,6 @@
   z-index: 1;
 }
 
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .logo {
   height: 32px;
   width: 228px;
@@ -123,7 +110,10 @@
 .content {
 
 }
+.description {
+  padding-top: 100px;
 
+}
 .two-columns {
   display: flex;
   flex-direction: row;
@@ -167,7 +157,9 @@
   padding: 0;
   margin: 0;
 }
-
+.digits {
+  padding-top: 100px;
+}
 .section-title {
   text-align: center;
   width: 60%;
@@ -175,6 +167,10 @@
   font-size: 60px;
   font-weight: 600;
   margin-bottom: 20px;
+}
+
+.section-title_theme_dark {
+  color: white;
 }
 
 .section-subtitle {
@@ -185,21 +181,38 @@
   font-weight: normal;
 }
 
+.section-subtitle_theme_dark {
+  color: white;
+}
+
 .table {
   width: 1100px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 60px;
-  padding-top: 60px;
 }
+
+.table_theme_dark {
+  position: relative;
+  z-index: 3;
+}
+
+
 
 .table__cell {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
   row-gap: 20px;
   width: 250px;
   row-gap: 20px;
+}
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .table__heading {
@@ -212,5 +225,63 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+.feynman {
+  position: relative;
+  height: 890px;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  width: 648px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size:  36px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+}
+
+.feynman__image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+  object-fit: contain;
+  z-index: -1;
+}
+
+.kaufman {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top:0;
+  z-index: 2;
 }
 
