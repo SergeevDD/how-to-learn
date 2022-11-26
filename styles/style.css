@@ -77,7 +77,7 @@
   object-fit: cover;
   z-index: 2;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -98,10 +98,6 @@
   top: 30px;
   left: 64px;
   z-index: 3;
-}
-
-.content {
-
 }
 
 .description {
@@ -156,6 +152,7 @@
 
 .digits {
   padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -203,7 +200,7 @@
   width: 250px;
   row-gap: 20px;
 }
-/* и элемента с модификатором вида ключ-значение */
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -234,7 +231,7 @@
   font-weight: 600;
   width: 648px;
   text-align: center;
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 70px;
 }
 
@@ -301,28 +298,30 @@
   justify-content: space-between;
   color: white;
 }
-
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+.footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
 }
 
-.footer__column_links {
+.footer__column-links {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.footer__column_link{
+.footer__column-link{
   display: flex;
   align-items: center;
   line-height: 30px;
