@@ -3,28 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Практическая работа 1">
+  <meta name="keywords" content="Флекс, БЭМ">
+  <meta name="author" content="Сергеев Дмитрий">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
   <title>Научиться учиться</title>
 </head>
 <body>
-  <div class="page typography">
+  <div class="page">
     <header class="header background-grey">
-      <div class="logo logo_place_header"></div>
+      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндес практикум чёрный">
       <h1 class="header__title reset-margin-padding">Научиться учиться</h1>
-      <div class="header__subtitle">
+      <h3 class="header__subtitle reset-margin-padding">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать 🠖</a>
-      </div>
+      </h3>
       <img  class= "header__main-illustration" src="/images/header-image.png" alt="Мальчик с собакой.Картина 'Опять двойка'">
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
       <section class="description centered-row">
         <div class="two-columns">
-          <h3 class="two-columns__brief reset-margin-padding">
-            Главные проблемы в обучении
-          </h3>
+          <a class="two-columns__link" href="#">
+            <h3 class="two-columns__brief reset-margin-padding">Главные проблемы в обучении </h3>
+          </a>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph reset-margin-padding">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
               Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест,
@@ -85,63 +88,82 @@
       <section class="feynman">
         <h2 class="feynman__title reset-margin-padding centered-block">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle reset-margin-padding centered-block">Выучить и не забыть.</h3>
-        <a href="" class="feynman__link">Подробнее 🠖</a>
+        <a href="#" class="feynman__link">Подробнее 🠖</a>
         <img src="./images/feynman.png" alt="Фото Феймана с синим кругом на фоне" class="feynman__image">
-
       </section>
       <section class="kaufman background-black">
         <h2 class="section-title section-title_theme_dark reset-margin-padding centered-block">Принципы обучения</h2>
-        <h3 class="section-subtitle  section-subtitle_theme_dark reset-margin-padding centered-block">от Джоша Кауфмана</h3>
+        <h3 class="section-subtitle section-subtitle_theme_dark reset-margin-padding centered-block">от Джоша Кауфмана</h3>
         <div class="centered-row">
-        <ul class="table table_theme_dark list">
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_dark reset-margin-padding">1</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Выберите привлекательный проект.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading  table__cell_theme_dark reset-margin-padding">2</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Сосредоточьтесь на каком-то одном навыке.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark reset-margin-padding">3</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Определите целевой уровень мастерства.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark reset-margin-padding reset-margin-padding">4</h4>
-            <p class="table__text  table__text_theme_dark reset-margin-padding">Разбейте навык на элементы.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark reset-margin-padding">5</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Приготовьте всё необходимое для занятий.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark reset-margin-padding">6</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Устраните препятствия для занятий.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark reset-margin-padding">7</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Выделите специальное время для занятий.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark reset-margin-padding">8</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Создайте быстрые петли обратной связи.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark reset-margin-padding">9</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
-          </li>
-          <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark reset-margin-padding">10</h4>
-            <p class="table__text table__text_theme_dark reset-margin-padding">Уделяйте внимание количеству и скорости.</p>
-          </li>
-        </ul>
-      </div>
-      <img src="/images/kaufman-triangle.svg" alt="Синий треугольник" class="kaufman__triangle">
+          <ul class="table table_theme_dark list">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark reset-margin-padding">1</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Выберите привлекательный проект.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading  table__heading_theme_dark reset-margin-padding">2</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Сосредоточьтесь на каком-то одном навыке.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark reset-margin-padding">3</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Определите целевой уровень мастерства.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark reset-margin-padding reset-margin-padding">4</h4>
+              <p class="table__text  table__text_theme_dark reset-margin-padding">Разбейте навык на элементы.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark reset-margin-padding">5</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Приготовьте всё необходимое для занятий.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark reset-margin-padding">6</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Устраните препятствия для занятий.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark reset-margin-padding">7</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Выделите специальное время для занятий.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark reset-margin-padding">8</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Создайте быстрые петли обратной связи.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark reset-margin-padding">9</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark reset-margin-padding">10</h4>
+              <p class="table__text table__text_theme_dark reset-margin-padding">Уделяйте внимание количеству и скорости.</p>
+            </li>
+          </ul>
+        </div>
+        <img src="/images/kaufman-triangle.svg" alt="Синий треугольник" class="kaufman__triangle">
       </section>
-
     </main>
-    <footer class="footer">
-
+    <footer class="footer background-black centered-row">
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндек практикум белый">
+          <div class="footer__author">&copy Виктор Абанькин</div>
+        </div>
+        <div class="footer__column_content_info">
+          <h3 class="footer__column-heading reset-margin-padding">О Практикуме</h3>
+          <ul class="footer__column_links list">
+            <li><a href="#" class="footer__column_link">Главная</a></li>
+            <li><a href="#" class="footer__column_link">Концепция</a></li>
+            <li><a href="#" class="footer__column_link">Наставники</a></li>
+          </ul>
+        </div>
+        <div class="footer__column_content_social">
+          <h3 class="footer__column-heading reset-margin-padding">Соцсети</h3>
+          <ul class="footer__column_links list">
+            <li><a href="#" class="footer__column_link"><img class="footer__social-icon" src="./images/youtube-icon.svg" lang="en" alt="logo You Tube" class="footer__social-icon">YouTube</a></li>
+            <li><a href="#" class="footer__column_link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип В контакте" class="footer__social-icon">ВКонтакте</a></li>
+            <li><a href="#" class="footer__column_link"><img class="footer__social-icon" src="./images/tiktok-icon.svg" lang="en" alt="logo Tik-Tok" class="footer__social-icon">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </div>
 </body>
