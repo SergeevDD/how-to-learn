@@ -293,6 +293,7 @@
   padding-bottom: 40px;
   box-sizing: border-box;
 }
+
 .footer__author {
   margin: 0 0 18px;
   padding-top: 18px;
@@ -307,6 +308,7 @@
   justify-content: space-between;
   color: white;
 }
+
 .footer__column {
   display: flex;
   flex-direction: column;
