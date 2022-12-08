@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items : center;
-  margin-bottom: 60px;
-  width: min-content;
- /*  flex-basis: 35%; */
+  /* width: min-content; */
+  flex-basis: 26%;
 }
