@@ -8,4 +8,9 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: black;
+
 }
+
+/* * {
+  border: 1px solid red;
+} */
