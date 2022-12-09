@@ -8,3 +8,6 @@
   }
 }
 
+.rotation {
+animation: rotation linear 20s infinite running;
+}
